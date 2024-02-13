@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    font-family:Roboto;
+    border:border-box;
+}
+.navbar{
+    height:59px;
+    width:900px;
+    background-color:#128c7e;
+    color:#ffffff;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.logo{
+    font-family: sans-serif;
+    width:800px;
+    height:29px;
+}
+.search{
+    height:19px;
+    width:35px;
+    font-weight:200px;
+    font-size: 1.3rem;
+}
+.profile{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color:white;
+
+}
+.nav-panel2{
+    height:59px;
+    width:900px;
+    background-color:#128c7e;
+    color:#ffffff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-top: 0.1px solid rgba(0, 100, 0, 0.63);
+    font-size:1.3rem;
+
+
+}
+.border{
+    border-bottom: 2px solid transpaent;
+
+
+}
+.border:active{
+    border-bottom:2px solid white;
+    bottom:0px;
+}
+.camera{
+    height:59px;
+    width:35px;
+    margin-left:15px;
+    position:relative;
+    margin-top:35px;
+}
+.chats{
+    width:50px;
+    margin-left:60px;
+    position:fixed;
+    border-bottom:2px solid white;
+}
+.calls{
+    margin-right:15px;
+
+}
+/*chat chamber*/
+.person1{
+    width:900px;
+    height:80px;
+    margin-top: 8px;
+    border-bottom: 0.5px solid grey;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.person1-profile{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color:maroon;
+
+
+}  
+.person1-chat{
+    font-size:1rem;
+    margin-left:15px;
+}
+.name{
+    font-weight:bold;
+    font-size:1.3rem;
+}
+.time{
+    font-size:0.9rem;
+    position:relative;
+    left:780px;
+    bottom:30px;
+
+
+}
